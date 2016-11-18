@@ -32,10 +32,8 @@ python3 anticrash.py {start|stop}
 
 #Thanks to
 [Siyanew](https://github.com/siyanew/)
-
 [Imandaneshi](https://github.com/imandaneshi)
-
-[Flöö](https://github.com/arandomstranger)
+[It_s_Me](https://telegram.me/it_s_me)
 
 
 
