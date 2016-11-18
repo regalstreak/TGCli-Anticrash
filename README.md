@@ -30,6 +30,8 @@ run the script:
 python3 anticrash.py {start|stop}
 ```
 
+Do NOT forget to run this script as root
+
 #Thanks to
 [Siyanew](https://github.com/siyanew/)
 
