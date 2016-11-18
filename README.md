@@ -1,5 +1,5 @@
 # Telegram Cli Anticrash script
-a little python antirash script for telegram cli robots
+a little python anticrash script for telegram cli robots
 
 ## How to Run ?
 First of all install Python >= 3.5 and then install `pip3`.
