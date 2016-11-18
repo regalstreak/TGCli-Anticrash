@@ -159,7 +159,7 @@ try:
                 os.kill(lastpid(),15)
                 wipe = subprocess.Popen(["screen", "-wipe"], stdout=subprocess.PIPE)
             except:
-                print('The script is not running.\n')
+                print('The script was not running.\n')
         f = open('.proc','w')
         f.write(str(os.getpid()))
         f.close()
@@ -174,13 +174,13 @@ try:
                 os.kill(lastpid(),15)
                 wipe = subprocess.Popen(["screen", "-wipe"], stdout=subprocess.PIPE)
             except:
-                print('The script is not running...')
+                print('The script was not running...')
             print("Byebye...")
             f = open('.proc','w+')
             f.write('0')
             f.close()
         else:
-            print('The script is not running.\n')
+            print('The script was not running.\n')
     else:
         print('Usage: python3 anticrash.py {start|stop}\n')   
         quit()
