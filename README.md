@@ -4,9 +4,7 @@ a little python anticrash script for telegram cli robots
 ## How to Run ?
 First of all install Python >= 3.5 and then install `pip3`.
 ```
-sudo add-apt-repository ppa:fkrull/deadsnakes
-sudo apt-get update
-sudo apt-get install python3.5
+sudo apt-get install python3
 sudo apt-get install python3-pip
 ```
 OR Compile with Source:
