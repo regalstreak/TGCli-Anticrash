@@ -39,7 +39,7 @@ class Anticrash(object):
 
             addlog('starting '+ botname)
             os.chdir(path)
-            proc = subprocess.Popen('screen -dmS "'+ botname +'" su '+ user +' -c "bash launch.sh -P '+ str(port) +'"',shell=True).wait()
+            proc = subprocess.Popen('screen -dmS XManager bash launch.sh -P '+ str(port) +'',shell=True).wait()
             addlog(botname + ' has been successfully started')
             print(colored(botname + ' has been successfully started\n',"blue"))
             spid = screen_pid(botname)
@@ -65,7 +65,7 @@ class Anticrash(object):
                 print(botname + ' was crashed and it has been successfully restarted.')
                 botname = bot+get_random_key(2)
 				
-                proc = subprocess.Popen('screen -dmS "'+ botname +'" su '+ user +' -c "bash launch.sh -P '+ str(port) +'"',shell=True).wait()
+                proc = subprocess.Popen('screen -dmS XManager bash launch.sh -P '+ str(port) +'',shell=True).wait()
                 spid = screen_pid(botname)
                 data[botname] = {"pid": spid}
 
